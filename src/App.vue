@@ -11,7 +11,8 @@
         href="https://vuejs.org"
         target="_blank"
         rel="noopener noreferrer"
-      >{{ message }}</a>
+        >{{ message }}</a
+      >
     </header>
   </div>
 </template>
@@ -20,9 +21,9 @@
 export default {
   data() {
     return {
-      message: "Learn Vue"
+      message: "Learn Vue",
     };
-  }
+  },
 };
 </script>
 
