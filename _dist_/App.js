@@ -3,7 +3,7 @@ import './App.css.proxy.js';
 const defaultExport = {
   data() {
     return {
-      message: "Learn Vue",
+      message: 'Learn Vue',
     };
   },
 };
@@ -13,7 +13,7 @@ import { createVNode as _createVNode, createTextVNode as _createTextVNode, toDis
 const _hoisted_1 = { class: "App" }
 const _hoisted_2 = { class: "App-header" }
 const _hoisted_3 = /*#__PURE__*/_createVNode("img", {
-  src: "/logo.svg",
+  src: "logo.svg",
   class: "App-logo",
   alt: "logo"
 }, null, -1)
