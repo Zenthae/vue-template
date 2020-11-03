@@ -1,8 +1,8 @@
 {
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build",
-    "publish": "gh-pages -d build"
+    "build": "snowpack build && touch ./build/.nojekyll",
+    "publish": "yarn run build && gh-pages -t -d build"
   },
   "dependencies": {
     "vue": "3.0.2"

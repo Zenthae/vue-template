@@ -1,18 +1,12 @@
 <template>
   <div class="App">
     <header class="App-header">
-      <img src="/logo.svg" class="App-logo" alt="logo" />
+      <img src="logo.svg" class="App-logo" alt="logo" />
       <p>
         Edit
         <code>src/App.vue</code> and save to reload.
       </p>
-      <a
-        class="App-link"
-        href="https://vuejs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-        >{{ message }}</a
-      >
+      <a class="App-link" href="https://vuejs.org" target="_blank" rel="noopener noreferrer">{{ message }}</a>
     </header>
   </div>
 </template>
@@ -21,7 +15,7 @@
 export default {
   data() {
     return {
-      message: "Learn Vue",
+      message: 'Learn Vue',
     };
   },
 };
