@@ -23,4 +23,5 @@ module.exports = {
   alias: {
     /* ... */
   },
+  scripts: { 'build:css': 'postcss' },
 };
